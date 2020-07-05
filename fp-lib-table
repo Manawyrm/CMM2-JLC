@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CMM2-JLC)(type KiCad)(uri ${KIPRJMOD}/CMM2-JLC.pretty)(options "")(descr ""))
+)
