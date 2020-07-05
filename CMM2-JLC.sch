@@ -2372,14 +2372,10 @@ F 3 "" H 10200 7850 50  0001 C CNN
 	1    10200 7850
 	1    0    0    -1  
 $EndComp
-Text Label 10350 8150 2    50   ~ 0
-PA11
-Text Label 10350 8050 2    50   ~ 0
-PA12
-Wire Wire Line
-	10100 8050 10350 8050
-Wire Wire Line
-	10350 8150 10100 8150
+Text Label 10700 8150 2    50   ~ 0
+USB_HOST_D-
+Text Label 10700 8050 2    50   ~ 0
+USB_HOST_D+
 Wire Wire Line
 	9700 8450 9800 8450
 Wire Wire Line
@@ -2495,13 +2491,13 @@ $EndComp
 Wire Wire Line
 	6400 6100 6400 6200
 Text Label 6850 5350 2    50   ~ 0
-USB_C_DP
+USB_C_D+
 Text Label 6850 5150 2    50   ~ 0
-USB_C_DM
+USB_C_D-
 Text Label 5400 6600 0    50   ~ 0
-USB_C_DM
+USB_C_D-
 Text Label 5400 6800 0    50   ~ 0
-USB_C_DP
+USB_C_D+
 Wire Wire Line
 	5400 6600 5900 6600
 Wire Wire Line
@@ -2572,14 +2568,10 @@ Wire Wire Line
 	7300 4800 7300 4850
 NoConn ~ 6400 5650
 NoConn ~ 6400 5750
-Text Label 7150 6600 2    50   ~ 0
-PA12
-Text Label 7150 6800 2    50   ~ 0
-PA11
-Wire Wire Line
-	6900 6600 7150 6600
-Wire Wire Line
-	7150 6800 6900 6800
+Text Label 7500 6800 2    50   ~ 0
+USB_HOST_D+
+Text Label 7500 6600 2    50   ~ 0
+USB_HOST_D-
 $Comp
 L power:GND #PWR0135
 U 1 1 6212DB53
@@ -2605,18 +2597,6 @@ $EndComp
 Connection ~ 5800 6050
 Text Notes 6300 7200 2    50   ~ 0
 USB ESD Protection
-$Comp
-L Interface_USB:CP2102N-A01-GQFN28 U4
-U 1 1 62161A24
-P 8400 5900
-F 0 "U4" H 8050 7150 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN28" H 8900 7150 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 8850 4700 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 8450 5150 50  0001 C CNN
-F 4 "C6568" H 8400 5900 50  0001 C CNN "LCSC"
-	1    8400 5900
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8900 7000
 NoConn ~ 8900 6900
 NoConn ~ 8900 6800
@@ -2768,9 +2748,9 @@ Wire Wire Line
 Connection ~ 8400 4300
 Connection ~ 9500 4300
 Text Label 7450 5400 0    50   ~ 0
-USB_C_DM
+USB_C_D-
 Text Label 7450 5300 0    50   ~ 0
-USB_C_DP
+USB_C_D+
 Wire Wire Line
 	7900 5300 7450 5300
 Wire Wire Line
@@ -2866,8 +2846,6 @@ Connection ~ 11000 6950
 Wire Wire Line
 	11000 6950 10600 6950
 Connection ~ 11600 6950
-Wire Wire Line
-	11600 6950 11000 6950
 Connection ~ 12050 6950
 Wire Wire Line
 	12050 6950 11600 6950
@@ -3009,8 +2987,6 @@ F 3 "" H 10900 4950 50  0001 C CNN
 	1    10900 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11600 4950 10900 4950
 $Comp
 L power:GND #PWR0146
 U 1 1 640D6E16
@@ -3022,8 +2998,6 @@ F 3 "" H 10900 5150 50  0001 C CNN
 	1    10900 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11600 5150 10900 5150
 Text Label 11300 4750 0    50   ~ 0
 PD2
 Text Label 11300 4850 0    50   ~ 0
@@ -3049,20 +3023,10 @@ F 3 "" H 13000 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12650 5800 13000 5800
-Wire Wire Line
-	11300 4750 11600 4750
-Wire Wire Line
-	11600 4850 11300 4850
-Wire Wire Line
-	11300 5050 11600 5050
-Wire Wire Line
-	11600 5250 11300 5250
 NoConn ~ 11600 4650
 NoConn ~ 11600 5350
 Text Label 11300 5450 0    50   ~ 0
 PD3
-Wire Wire Line
-	11300 5450 11600 5450
 $Comp
 L power:GND #PWR0148
 U 1 1 6460FF9B
@@ -3159,10 +3123,10 @@ Text Label 4800 3050 2    50   ~ 0
 PA9
 Text Label 4800 3150 2    50   ~ 0
 PA10
-Text Label 4800 3250 2    50   ~ 0
-PA11
-Text Label 4800 3350 2    50   ~ 0
-PA12
+Text Label 5150 3250 2    50   ~ 0
+USB_HOST_D-
+Text Label 5150 3350 2    50   ~ 0
+USB_HOST_D+
 Text Label 4800 3450 2    50   ~ 0
 PA13
 Text Label 4800 3550 2    50   ~ 0
@@ -3191,10 +3155,6 @@ Wire Wire Line
 	4550 3050 4800 3050
 Wire Wire Line
 	4800 3150 4550 3150
-Wire Wire Line
-	4800 3250 4550 3250
-Wire Wire Line
-	4550 3350 4800 3350
 Wire Wire Line
 	4800 3450 4550 3450
 Wire Wire Line
@@ -3704,4 +3664,44 @@ Wire Notes Line
 	5200 1400 400  1400
 Wire Notes Line
 	10350 7450 10350 4100
+Wire Wire Line
+	11600 5250 11300 5250
+Wire Wire Line
+	11600 5150 10900 5150
+Wire Wire Line
+	11300 5050 11600 5050
+Wire Wire Line
+	11600 4950 10900 4950
+Wire Wire Line
+	11600 4850 11300 4850
+Wire Wire Line
+	11300 4750 11600 4750
+Wire Wire Line
+	11600 6950 11000 6950
+Wire Wire Line
+	11300 5450 11600 5450
+$Comp
+L Interface_USB:CP2102N-A01-GQFN28 U4
+U 1 1 62161A24
+P 8400 5900
+F 0 "U4" H 8050 7150 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN28" H 8900 7150 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 8850 4700 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 8450 5150 50  0001 C CNN
+F 4 "C6568" H 8400 5900 50  0001 C CNN "LCSC"
+	1    8400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 8050 10700 8050
+Wire Wire Line
+	4550 3250 5150 3250
+Wire Wire Line
+	4550 3350 5150 3350
+Wire Wire Line
+	6900 6600 7500 6600
+Wire Wire Line
+	6900 6800 7500 6800
+Wire Wire Line
+	10100 8150 10700 8150
 $EndSCHEMATC

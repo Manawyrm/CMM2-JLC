@@ -1,0 +1,83 @@
+07-05 20:29:27 length_stats.action_length_stats 271:Plugin executed on: 'linux'
+07-05 20:29:27 length_stats.action_length_stats 272:Plugin executed with python version: '3.8.3 (default, May 17 2020, 18:15:42) \n[GCC 10.1.0]'
+07-05 20:29:27 length_stats.action_length_stats 273:KiCad build version: 5.1.6
+07-05 20:29:27 length_stats.action_length_stats 274:Length stats plugin version: 29 started
+07-05 20:29:27 length_stats.action_length_stats 88:Lenght stats gui initialized
+07-05 20:29:27 length_stats.action_length_stats 89:Nets for stats are;
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:29:28 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:29:28 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:29:35 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:29:35 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
+07-05 20:29:36 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:29:36 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
+07-05 20:29:37 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:29:37 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:30:40 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:30:40 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:30:41 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:30:41 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:34:48 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:34:48 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PF15']
+07-05 20:34:50 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:34:50 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:34:52 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:34:52 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:34:52 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:34:53 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:34:54 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:34:54 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:35:09 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:35:09 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG5']
+07-05 20:35:09 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:35:10 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:35:14 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:35:14 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
+07-05 20:37:17 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:37:17 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
+07-05 20:37:26 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:37:27 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PD0']
+07-05 20:37:31 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:37:31 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PH5']
+07-05 20:37:31 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:37:32 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:45:57 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:45:57 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PG8']
+07-05 20:45:59 length_stats.action_length_stats 101:Refreshing manually
+07-05 20:45:59 length_stats.action_length_stats 124:Refreshing net lengths
+07-05 20:46:01 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:46:02 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
+07-05 20:46:55 length_stats.action_length_stats 179:Removing highlights for nets:
+['/PD0', '/PD1', '/PD10', '/PD14', '/PD15', '/PD8', '/PD9', '/PE0', '/PE1', '/PE10', '/PE11', '/PE12', '/PE13', '/PE7', '/PE8', '/PE9', '/PF0', '/PF1', '/PF11', '/PF12', '/PF13', '/PF14', '/PF15', '/PF2', '/PF3', '/PF4', '/PF5', '/PG0', '/PG1', '/PG15', '/PG4', '/PG5', '/PG8', '/PH5', '/PH6']
+07-05 20:46:56 length_stats.action_length_stats 190:Adding highlights for nets:
+['/PE1']
