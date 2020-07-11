@@ -12,3 +12,7 @@ USB-C
 buy at reichelt: 
 https://www.reichelt.de/d-sub-buchse-high-density-15-polig-print-gew-hd-15fw-p8506.html?&nbc=1
 https://www.reichelt.de/usb-einbaubuchse-serie-a-gew-printmontage-usb-aw-p22184.html?&nbc=1
+
+
+
+also: IDE IDC connector (auch für den Maximite) and raspberry pi sockets
