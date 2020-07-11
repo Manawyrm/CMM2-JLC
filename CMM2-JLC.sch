@@ -1375,7 +1375,7 @@ U 1 1 5FFE2E3E
 P 14550 5250
 F 0 "J2" H 14550 6117 50  0000 C CNN
 F 1 "VGA" H 14550 6026 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 13600 5650 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 13600 5650 50  0001 C CNN
 F 3 " ~" H 13600 5650 50  0001 C CNN
 	1    14550 5250
 	1    0    0    -1  
