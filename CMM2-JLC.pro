@@ -1,4 +1,4 @@
-update=So 05 Jul 2020 22:17:19 CEST
+update=Sa 11 Jul 2020 14:55:33 CEST
 version=1
 last_client=kicad
 [general]
@@ -250,6 +250,17 @@ Enabled=0
 Name=Default
 Clearance=0.127
 TrackWidth=0.127
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.09
+dPairGap=0.4
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=SDRAM
+Clearance=0.304
+TrackWidth=0.289
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
