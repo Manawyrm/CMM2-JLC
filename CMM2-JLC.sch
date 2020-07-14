@@ -2487,9 +2487,9 @@ Text Label 6850 5350 2    50   ~ 0
 USB_C_D+
 Text Label 6850 5150 2    50   ~ 0
 USB_C_D-
-Text Label 5400 6600 0    50   ~ 0
-USB_C_D-
 Text Label 5400 6800 0    50   ~ 0
+USB_C_D-
+Text Label 5400 6600 0    50   ~ 0
 USB_C_D+
 Wire Wire Line
 	5400 6600 5900 6600
@@ -2561,9 +2561,9 @@ Wire Wire Line
 	7300 4800 7300 4850
 NoConn ~ 6400 5650
 NoConn ~ 6400 5750
-Text Label 7500 6800 2    50   ~ 0
-USB_HOST_D+
 Text Label 7500 6600 2    50   ~ 0
+USB_HOST_D+
+Text Label 7500 6800 2    50   ~ 0
 USB_HOST_D-
 $Comp
 L power:GND #PWR0135
