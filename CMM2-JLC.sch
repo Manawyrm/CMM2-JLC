@@ -232,9 +232,9 @@ Text Label 5600 9250 0    50   ~ 0
 PG0
 Text Label 5600 9350 0    50   ~ 0
 PG1
-Text Label 5600 9500 0    50   ~ 0
-PG5
 Text Label 5600 9600 0    50   ~ 0
+PG5
+Text Label 5600 9500 0    50   ~ 0
 PG4
 Text Label 5600 9750 0    50   ~ 0
 PG8
@@ -273,9 +273,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 9350 5600 9350
 Wire Wire Line
-	5600 9500 5800 9500
+	5600 9600 5800 9600
 Wire Wire Line
-	5800 9600 5600 9600
+	5800 9500 5600 9500
 Wire Wire Line
 	5600 9750 5800 9750
 Wire Wire Line
@@ -2487,14 +2487,14 @@ Text Label 6850 5350 2    50   ~ 0
 USB_C_D+
 Text Label 6850 5150 2    50   ~ 0
 USB_C_D-
-Text Label 5400 6800 0    50   ~ 0
-USB_C_D-
 Text Label 5400 6600 0    50   ~ 0
+USB_C_D-
+Text Label 5400 6800 0    50   ~ 0
 USB_C_D+
 Wire Wire Line
-	5400 6600 5900 6600
+	5400 6800 5900 6800
 Wire Wire Line
-	5900 6800 5400 6800
+	5900 6600 5400 6600
 Wire Wire Line
 	6400 5150 6850 5150
 Connection ~ 6400 5150
