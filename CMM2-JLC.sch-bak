@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Memory_RAM:AS4C4M16SA U2
+L SDRAM_Micron:MT48LC16M16A2 U2
 U 1 1 5F01B402
 P 6600 9300
 F 0 "U2" H 6600 10781 50  0000 C CNN
@@ -232,19 +232,19 @@ Text Label 5600 9250 0    50   ~ 0
 PG0
 Text Label 5600 9350 0    50   ~ 0
 PG1
-Text Label 5600 9600 0    50   ~ 0
+Text Label 5600 9700 0    50   ~ 0
 PG5
-Text Label 5600 9500 0    50   ~ 0
+Text Label 5600 9600 0    50   ~ 0
 PG4
-Text Label 5600 9750 0    50   ~ 0
-PG8
 Text Label 5600 9850 0    50   ~ 0
+PG8
+Text Label 5600 9950 0    50   ~ 0
 PH7
-Text Label 5600 10000 0    50   ~ 0
+Text Label 5600 10050 0    50   ~ 0
 PF11
-Text Label 5600 10100 0    50   ~ 0
+Text Label 5600 10150 0    50   ~ 0
 PG15
-Text Label 5600 10200 0    50   ~ 0
+Text Label 5600 10250 0    50   ~ 0
 PH5
 Text Label 5600 10350 0    50   ~ 0
 PH6
@@ -273,19 +273,19 @@ Wire Wire Line
 Wire Wire Line
 	5800 9350 5600 9350
 Wire Wire Line
-	5600 9600 5800 9600
+	5600 9700 5800 9700
 Wire Wire Line
-	5800 9500 5600 9500
+	5800 9600 5600 9600
 Wire Wire Line
-	5600 9750 5800 9750
+	5600 9850 5800 9850
 Wire Wire Line
-	5800 9850 5600 9850
+	5800 9950 5600 9950
 Wire Wire Line
-	5600 10000 5800 10000
+	5600 10050 5800 10050
 Wire Wire Line
-	5800 10100 5600 10100
+	5800 10150 5600 10150
 Wire Wire Line
-	5800 10200 5600 10200
+	5800 10250 5600 10250
 Wire Wire Line
 	5600 10350 5800 10350
 Text Label 7650 10000 2    50   ~ 0
@@ -2561,9 +2561,9 @@ Wire Wire Line
 	7300 4800 7300 4850
 NoConn ~ 6400 5650
 NoConn ~ 6400 5750
-Text Label 7500 6800 2    50   ~ 0
-USB_HOST_D+
 Text Label 7500 6600 2    50   ~ 0
+USB_HOST_D+
+Text Label 7500 6800 2    50   ~ 0
 USB_HOST_D-
 $Comp
 L power:GND #PWR0135
@@ -3620,9 +3620,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 3350 5150 3350
 Wire Wire Line
-	6900 6800 7500 6800
-Wire Wire Line
 	6900 6600 7500 6600
+Wire Wire Line
+	6900 6800 7500 6800
 Wire Wire Line
 	10100 8150 10700 8150
 Wire Wire Line
@@ -3912,4 +3912,8 @@ Connection ~ 12850 8800
 Wire Wire Line
 	11050 8500 11500 8500
 Connection ~ 11050 8500
+Text Label 5600 9450 0    50   ~ 0
+PG2
+Wire Wire Line
+	5800 9450 5600 9450
 $EndSCHEMATC
