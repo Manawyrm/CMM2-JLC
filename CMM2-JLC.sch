@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Colour Maximite 2"
 Date "2020-07-05"
-Rev "B"
+Rev "C"
 Comp "tbspace.de"
 Comment1 "Tobias Mädel"
 Comment2 ""
@@ -1363,14 +1363,14 @@ Wire Wire Line
 Wire Wire Line
 	1750 5350 1500 5350
 $Comp
-L Connector:DB15_Female_HighDensity J2
+L Connector:DB15_Female_HighDensity_MountingHoles J2
 U 1 1 5FFE2E3E
-P 14550 5250
-F 0 "J2" H 14550 6117 50  0000 C CNN
-F 1 "VGA" H 14550 6026 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 13600 5650 50  0001 C CNN
-F 3 " ~" H 13600 5650 50  0001 C CNN
-	1    14550 5250
+P 14550 5100
+F 0 "J2" H 14550 5967 50  0000 C CNN
+F 1 "VGA" H 14550 5876 50  0000 C CNN
+F 2 "CMM2-JLC:DSUB-15-HD_Female_Horizontal_P2.29x2,54mm_EdgePinOffset8.63mm_Housed_MountingHolesOffset11.17mm" H 13600 5500 50  0001 C CNN
+F 3 " ~" H 13600 5500 50  0001 C CNN
+	1    14550 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1582,59 +1582,57 @@ Text Label 15550 1150 2    50   ~ 0
 VGA_RED
 Wire Wire Line
 	15550 1150 15100 1150
-Text Label 13800 4850 0    50   ~ 0
+Text Label 13800 4700 0    50   ~ 0
 VGA_RED
-Text Label 13800 5050 0    50   ~ 0
+Text Label 13800 4900 0    50   ~ 0
 VGA_GREEN
-Text Label 13800 5250 0    50   ~ 0
+Text Label 13800 5100 0    50   ~ 0
 VGA_BLUE
 Wire Wire Line
-	14250 4850 13800 4850
+	14250 4700 13800 4700
 Wire Wire Line
-	13800 5050 14250 5050
+	13800 4900 14250 4900
 Wire Wire Line
-	14250 5250 13800 5250
-Text Label 15350 5250 2    50   ~ 0
+	14250 5100 13800 5100
+Text Label 15350 5100 2    50   ~ 0
 VGA_HSYNC
-Text Label 15350 5450 2    50   ~ 0
+Text Label 15350 5300 2    50   ~ 0
 VGA_VSYNC
-Text Label 15700 5250 2    50   ~ 0
+Text Label 15700 5100 2    50   ~ 0
 PI10
-Text Label 15700 5450 2    50   ~ 0
+Text Label 15700 5300 2    50   ~ 0
 PI9
 Wire Wire Line
-	14850 5250 15700 5250
+	14850 5100 15700 5100
 Wire Wire Line
-	14850 5450 15700 5450
-NoConn ~ 14850 4850
-NoConn ~ 14850 5050
-NoConn ~ 14850 5650
-NoConn ~ 14250 5450
-NoConn ~ 14250 5350
+	14850 5300 15700 5300
+NoConn ~ 14850 4700
+NoConn ~ 14850 4900
+NoConn ~ 14850 5500
+NoConn ~ 14250 5300
+NoConn ~ 14250 5200
 Wire Wire Line
-	14250 4750 13500 4750
+	14250 4600 13500 4600
 Wire Wire Line
-	14250 4950 13500 4950
+	14250 4800 13500 4800
 Wire Wire Line
-	13500 4750 13500 4950
-Connection ~ 13500 4950
+	13500 4600 13500 4800
+Connection ~ 13500 4800
 Wire Wire Line
-	13500 4950 13500 5150
+	13500 4800 13500 5000
 Wire Wire Line
-	14250 5150 13500 5150
-Connection ~ 13500 5150
+	14250 5000 13500 5000
+Connection ~ 13500 5000
 Wire Wire Line
-	13500 5150 13500 5550
+	13500 5000 13500 5400
 Wire Wire Line
-	14250 5550 13500 5550
-Connection ~ 13500 5550
+	14250 5400 13500 5400
+Connection ~ 13500 5400
 Wire Wire Line
-	13500 5550 13500 5650
+	13500 5400 13500 5500
 Wire Wire Line
-	14250 5650 13500 5650
-Connection ~ 13500 5650
-Wire Wire Line
-	13500 5650 13500 5850
+	14250 5500 13500 5500
+Connection ~ 13500 5500
 $Comp
 L power:GND #PWR0117
 U 1 1 6084A9D8
@@ -3916,4 +3914,11 @@ Text Label 5600 9450 0    50   ~ 0
 PG2
 Wire Wire Line
 	5800 9450 5600 9450
+Wire Wire Line
+	14550 5800 13500 5800
+Wire Wire Line
+	13500 5500 13500 5800
+Wire Wire Line
+	13500 5800 13500 5850
+Connection ~ 13500 5800
 $EndSCHEMATC

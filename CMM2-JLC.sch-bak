@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Colour Maximite 2"
 Date "2020-07-05"
-Rev "A"
+Rev "C"
 Comp "tbspace.de"
 Comment1 "Tobias Mädel"
 Comment2 ""
@@ -1363,12 +1363,12 @@ Wire Wire Line
 Wire Wire Line
 	1750 5350 1500 5350
 $Comp
-L Connector:DB15_Female_HighDensity J2
+L Connector:DB15_Female_HighDensity_MountingHoles J2
 U 1 1 5FFE2E3E
 P 14550 5250
 F 0 "J2" H 14550 6117 50  0000 C CNN
 F 1 "VGA" H 14550 6026 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" H 13600 5650 50  0001 C CNN
+F 2 "CMM2-JLC:DSUB-15-HD_Female_Horizontal_P2.29x2,54mm_EdgePinOffset8.63mm_Housed_MountingHolesOffset11.17mm" H 13600 5650 50  0001 C CNN
 F 3 " ~" H 13600 5650 50  0001 C CNN
 	1    14550 5250
 	1    0    0    -1  
