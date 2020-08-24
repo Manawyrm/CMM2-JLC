@@ -36,3 +36,5 @@ It's fully compatible to the original firmware and software.
 - SDRAM pinout is missing A12 line 
 (causes instability, fixed in Rev.B, workaround with enamelled copper wire of the same length as the other traces)
 
+#### Rev. C Errata
+- Nunchuck footprint is reversed
