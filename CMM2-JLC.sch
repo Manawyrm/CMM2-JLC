@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Colour Maximite 2"
 Date "2020-07-05"
-Rev "C"
+Rev "D"
 Comp "tbspace.de"
 Comment1 "Tobias Mädel"
 Comment2 ""
@@ -784,54 +784,30 @@ Connection ~ 14400 6550
 Wire Wire Line
 	14400 6550 13950 6550
 $Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5F02BAFB
-P 9350 9900
-F 0 "J1" H 8750 9650 50  0000 L CNN
-F 1 "Nunchuck" H 8900 9650 50  0000 L CNN
-F 2 "CMM2-JLC:nunchuck" H 9350 9900 50  0001 C CNN
-F 3 "~" H 9350 9900 50  0001 C CNN
-F 4 "Footprint by Jan Henrik Hemsing -- Thanks! :3" H 9350 9900 50  0001 C CNN "Copyright"
-	1    9350 9900
-	1    0    0    -1  
-$EndComp
-Text Label 8500 10000 0    50   ~ 0
-NUNCHUCK_VCC
-Text Label 8500 9800 0    50   ~ 0
-NUNCHUCK_GND
-Text Label 8500 9900 0    50   ~ 0
-NUNCHUCK_SCL
-Text Label 8500 10100 0    50   ~ 0
-NUNCHUCK_SDA
-$Comp
 L power:GND #PWR0107
 U 1 1 5F0C409D
-P 8400 9800
-F 0 "#PWR0107" H 8400 9550 50  0001 C CNN
-F 1 "GND" H 8550 9750 50  0000 C CNN
-F 2 "" H 8400 9800 50  0001 C CNN
-F 3 "" H 8400 9800 50  0001 C CNN
-	1    8400 9800
-	-1   0    0    1   
+P 9100 10300
+F 0 "#PWR0107" H 9100 10050 50  0001 C CNN
+F 1 "GND" H 9250 10250 50  0000 C CNN
+F 2 "" H 9100 10300 50  0001 C CNN
+F 3 "" H 9100 10300 50  0001 C CNN
+	1    9100 10300
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0108
 U 1 1 5F0C51CE
-P 8450 10000
-F 0 "#PWR0108" H 8450 9850 50  0001 C CNN
-F 1 "+3V3" V 8450 10200 50  0000 C CNN
-F 2 "" H 8450 10000 50  0001 C CNN
-F 3 "" H 8450 10000 50  0001 C CNN
-	1    8450 10000
-	0    -1   -1   0   
+P 9100 9500
+F 0 "#PWR0108" H 9100 9350 50  0001 C CNN
+F 1 "+3V3" H 9100 9650 50  0000 C CNN
+F 2 "" H 9100 9500 50  0001 C CNN
+F 3 "" H 9100 9500 50  0001 C CNN
+	1    9100 9500
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 9800 9150 9800
-Wire Wire Line
-	8450 10000 9150 10000
 Text Label 4800 4950 2    50   ~ 0
 PB11
-Text Label 10800 9800 2    50   ~ 0
+Text Label 11050 9800 2    50   ~ 0
 NUNCHUCK_SCL
 $Comp
 L Device:R R1
@@ -845,12 +821,8 @@ F 4 "C25744" V 10000 9500 50  0001 C CNN "LCSC"
 	1    10000 9500
 	0    1    1    0   
 $EndComp
-Text Label 10800 9500 2    50   ~ 0
+Text Label 11050 9500 2    50   ~ 0
 NUNCHUCK_SDA
-Wire Wire Line
-	10800 9500 10150 9500
-Wire Wire Line
-	10150 9800 10800 9800
 $Comp
 L Device:R R2
 U 1 1 5F407F9E
@@ -2145,44 +2117,44 @@ $EndComp
 $Comp
 L Connector:AudioJack3_Switch J5
 U 1 1 60C827BB
-P 9050 9200
-F 0 "J5" H 9032 9625 50  0000 C CNN
-F 1 "Audio" H 9032 9534 50  0000 C CNN
-F 2 "CMM2-JLC:PJ-3270" H 9050 9200 50  0001 C CNN
-F 3 "~" H 9050 9200 50  0001 C CNN
-	1    9050 9200
+P 9150 8950
+F 0 "J5" H 9132 9375 50  0000 C CNN
+F 1 "Audio" H 9132 9284 50  0000 C CNN
+F 2 "CMM2-JLC:PJ-3270" H 9150 8950 50  0001 C CNN
+F 3 "~" H 9150 8950 50  0001 C CNN
+	1    9150 8950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 9000 9250 9100
+	9350 8750 9350 8850
 Wire Wire Line
-	9250 9200 9250 9300
+	9350 8950 9350 9050
 Wire Wire Line
-	9250 9400 9250 9500
+	9350 9150 9350 9250
 $Comp
 L power:GND #PWR0123
 U 1 1 60D1AD0A
-P 9300 9000
-F 0 "#PWR0123" H 9300 8750 50  0001 C CNN
-F 1 "GND" V 9305 8872 50  0000 R CNN
-F 2 "" H 9300 9000 50  0001 C CNN
-F 3 "" H 9300 9000 50  0001 C CNN
-	1    9300 9000
+P 9400 8750
+F 0 "#PWR0123" H 9400 8500 50  0001 C CNN
+F 1 "GND" V 9405 8622 50  0000 R CNN
+F 2 "" H 9400 8750 50  0001 C CNN
+F 3 "" H 9400 8750 50  0001 C CNN
+	1    9400 8750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9250 9000 9300 9000
-Connection ~ 9250 9000
-Text Label 9450 9200 2    50   ~ 0
+	9350 8750 9400 8750
+Connection ~ 9350 8750
+Text Label 9550 8950 2    50   ~ 0
 PA5
-Text Label 9450 9400 2    50   ~ 0
+Text Label 9550 9150 2    50   ~ 0
 PA4
 Wire Wire Line
-	9250 9200 9450 9200
-Connection ~ 9250 9200
+	9350 8950 9550 8950
+Connection ~ 9350 8950
 Wire Wire Line
-	9450 9400 9250 9400
-Connection ~ 9250 9400
+	9550 9150 9350 9150
+Connection ~ 9350 9150
 $Comp
 L Device:LED D1
 U 1 1 60DF1833
@@ -3154,18 +3126,12 @@ Wire Wire Line
 	4800 3650 4550 3650
 Text Label 1500 5950 0    50   ~ 0
 PH4
-Text Label 8200 9900 0    50   ~ 0
-PH4
-Wire Wire Line
-	8200 9900 9150 9900
 Wire Wire Line
 	1500 5950 1750 5950
 Wire Wire Line
 	4800 4950 4550 4950
-Text Label 8200 10100 0    50   ~ 0
+Text Label 10200 9500 0    50   ~ 0
 PB11
-Wire Wire Line
-	8200 10100 9150 10100
 $Comp
 L Switch:SW_Push SW1
 U 1 1 655FFE08
@@ -3921,4 +3887,34 @@ Wire Wire Line
 Wire Wire Line
 	13500 5800 13500 5850
 Connection ~ 13500 5800
+$Comp
+L nunchuk:Nunchuk J1
+U 1 1 5F5228DA
+P 9100 9900
+F 0 "J1" H 9378 9946 50  0000 L CNN
+F 1 "Nunchuk" H 9378 9855 50  0000 L CNN
+F 2 "CMM2-JLC:nunchuck" H 9100 10400 50  0001 C CNN
+F 3 "" H 9100 10400 50  0001 C CNN
+	1    9100 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 10300 9100 10250
+Wire Wire Line
+	9100 9500 9100 9550
+NoConn ~ 8750 10000
+Wire Wire Line
+	10150 9500 11050 9500
+Wire Wire Line
+	10150 9800 11050 9800
+Text Label 10200 9800 0    50   ~ 0
+PH4
+Text Label 8150 9800 0    50   ~ 0
+NUNCHUCK_SDA
+Wire Wire Line
+	8150 9800 8750 9800
+Text Label 8150 9900 0    50   ~ 0
+NUNCHUCK_SCL
+Wire Wire Line
+	8150 9900 8750 9900
 $EndSCHEMATC

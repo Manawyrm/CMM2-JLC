@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SDRAM_Micron)(type Legacy)(uri ${KIPRJMOD}/SDRAM_Micron.lib)(options "")(descr ""))
+  (lib (name nunchuk)(type Legacy)(uri ${KIPRJMOD}/nunchuk.lib)(options "")(descr ""))
 )
