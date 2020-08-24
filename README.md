@@ -35,6 +35,11 @@ It's fully compatible to the original firmware and software.
 - Missing mounting holes
 - SDRAM pinout is missing A12 line 
 (causes instability, fixed in Rev.B, workaround with enamelled copper wire of the same length as the other traces)
+- Nunchuck footprint is reversed
+
+#### Rev. B Errata
+- KiCad Bug caused data corruption in PCB files, board files were reset back to pre-RevA state (missing via stitching). Will still work. 
+- Nunchuck footprint is reversed
 
 #### Rev. C Errata
 - Nunchuck footprint is reversed
