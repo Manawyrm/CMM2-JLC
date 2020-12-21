@@ -7,7 +7,7 @@ Colour Maximite 2 - JLC-ready design
 This is a open-source hardware clone PCB of the [Colour Maximite 2](https://geoffg.net/maximite.html) computer.  
 It's fully compatible to the original firmware and software.  
 
-- Designed for JLC SMT assembly, everything except the connectors can be machine assembled.  
+- Designed for automated assembly at [JLCPCB](https://jlcpcb.com), everything except the connectors can be machine assembled.  
 - USB-C port (instead of USB-B) for serial and power  
 - microSD socket instead of full-size SD socket  
 - STM32 and SDRAM directly onboard, no expensive evaluation board needed  
