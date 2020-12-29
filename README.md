@@ -14,7 +14,7 @@ It's fully compatible to the original firmware and software.
 
 #### Bill of materials
 
-[Interactive BOM](https://tbspace.de/content/downloads/ibom_cmm2_revb.html)
+[Interactive BOM](https://tbspace.de/content/downloads/ibom_cmm2_reve.html)
 
 | Description | Part No.  | Links  |
 | :-------:|-------------| -----:|
@@ -35,11 +35,17 @@ It's fully compatible to the original firmware and software.
 - Missing mounting holes
 - SDRAM pinout is missing A12 line 
 (causes instability, fixed in Rev.B, workaround with enamelled copper wire of the same length as the other traces)
+- SRV05 diode package had the Pin 1 indicator at Pin 6.  
 - Nunchuck footprint is reversed
 
 #### Rev. B Errata
 - KiCad Bug caused data corruption in PCB files, board files were reset back to pre-RevA state (missing via stitching). Will still work. 
+- SRV05 diode package had the Pin 1 indicator at Pin 6.  
 - Nunchuck footprint is reversed
 
 #### Rev. C Errata
+- SRV05 diode package had the Pin 1 indicator at Pin 6.  
 - Nunchuck footprint is reversed
+
+#### Rev. D Errata
+- SRV05 diode package had the Pin 1 indicator at Pin 6.  
